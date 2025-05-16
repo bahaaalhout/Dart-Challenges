@@ -1,8 +1,8 @@
 // Challenge 2: Balance the Parentheses
 
 void main() {
-  print(isBalancedParentheses('(((AsASas))'));
-  print(isBalancedParentheses('(((asdSDasS)))'));
+  print(isBalancedParentheses('((4 + 3) * (9 - 2)))'));
+  print(isBalancedParentheses('((4 + 3) * (9 - 2))'));
 }
 
 bool isBalancedParentheses(String str) {
